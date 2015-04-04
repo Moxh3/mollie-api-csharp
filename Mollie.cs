@@ -133,6 +133,7 @@ namespace Mollie.Api
 		public string locale { get; set; }
 
 		//(Optional) Creditcard and/or paypal parameters. Countries must be specified in ISO 3166-1 alpha-2 format.
+		public string billingAddress { get; set; }
 		public string billingCity { get; set; }
 		public string billingRegion { get; set; }
 		public string billingPostal { get; set; }
